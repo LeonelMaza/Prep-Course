@@ -82,7 +82,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num>90) {
+  if (num<90) {
     return true;
   } else {
     return false;
@@ -144,7 +144,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return num**exponente;
+  return (num**exponent);
 }
 
 function redondearNumero(num) {
@@ -172,7 +172,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero==0) {
     return false;
-  } else if(numero<0){
+  } else if(numero>0){
     return "Es positivo";
   } return "Es negativo";
 }
@@ -195,7 +195,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola " +nombre;
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -208,7 +208,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado*lado;
+  return lado+lado+lado+lado;
 }
 
 
