@@ -72,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1.length == str2.length) {
-    retrun true;
+    return true;
   } else {
     return false;
   }
