@@ -102,7 +102,10 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-
+  
+  if (Math.floor(numero%1==0)) {
+    return true;
+  } return false;
 }
 
 function fizzBuzz(numero) {
@@ -162,6 +165,12 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
+  
+  let arrayTablaDel6 = [];
+
+  for (i=0; i<11; i++){
+    arrayTablaDel6.push(6 * i);
+  } return arrayTablaDel6
   
 }
 
